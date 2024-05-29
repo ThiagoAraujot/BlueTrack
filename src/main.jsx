@@ -1,10 +1,24 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App.jsx";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import Page1 from "./routes/Page1/Page1.jsx";
+import Page2 from "./routes/Page2/Page2.jsx";
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+const router = createBrowserRouter([
+  {
+    path: "/",
+    component: App,
+
+    children: [
+      { path: "/", element: <Page1 /> },
+      { path: "/bluetrack", element: <Page2 /> },
+    ],
+  },
+]);
+
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-)
+    <RouterProvider router={router} />
+  </React.StrictMode>
+);

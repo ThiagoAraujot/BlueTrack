@@ -1,0 +1,47 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem 2rem;
+  background-color: #fff;
+}
+
+.logo {
+  color: #231656;
+}
+
+.ul-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+
+.links {
+  padding: 0 2em;
+  cursor: pointer;
+  color: #231656;
+
+  &:hover {
+    font-weight: bold;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+  }
+}
+
+.btn-go-back {
+  padding: 0.8em 1em;
+  border: none;
+  border-radius: 20px;
+  background-color: #231656;
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    background-color: #bbb0e7;
+    color: #231656;
+    font-weight: bold;
+  }
+}
