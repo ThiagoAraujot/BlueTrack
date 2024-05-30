@@ -9,7 +9,7 @@ const Features = () => {
       <div id="features" className="container-features">
         <div className="features">
           <img className="card-img" src={cardImg1} alt="" />
-          <h3 className="title-card">Creat an account</h3>
+          <h3 className="title-card">Create an account</h3>
           <p className="text-card">
             Aspernatur sit adipisci quaerat unde Redug Lagre dolor sit amets
             consectetus. Agencies define their new business
@@ -18,7 +18,7 @@ const Features = () => {
 
         <div className="features">
           <img className="card-img-different" src={cardImg2} alt="" />
-          <h3 className="title-card">Creat an account</h3>
+          <h3 className="title-card">Create an account</h3>
           <p className="text-card">
             Aspernatur sit adipisci quaerat unde Redug Lagre dolor sit amets
             consectetus. Agencies define their new business
@@ -27,7 +27,7 @@ const Features = () => {
 
         <div className="features">
           <img className="card-img" src={cardImg3} alt="" />
-          <h3 className="title-card">Creat an account</h3>
+          <h3 className="title-card">Create an account</h3>
           <p className="text-card">
             Aspernatur sit adipisci quaerat unde Redug Lagre dolor sit amets
             consectetus. Agencies define their new business
