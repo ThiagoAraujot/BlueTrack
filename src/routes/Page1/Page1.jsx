@@ -1,5 +1,5 @@
-import Navbar from "../../components/page1/Navbar/Navbar";
-import Card from "../../components/page1/Card/Card";
+import Navbar from "../../components/Page1/Navbar/Navbar";
+import Card from "../../components/Page1/Card/Card";
 import "./Page1.scss";
 
 const Page1 = () => {
