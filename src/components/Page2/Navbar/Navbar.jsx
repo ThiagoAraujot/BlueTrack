@@ -7,8 +7,14 @@ const Navbar = () => {
 
       <ul className="ul-links">
         <li className="links">About Us</li>
-        <li className="links">Features</li>
-        <li className="links">Benefits</li>
+        <a href="#features">
+          <li className="links">Features</li>
+        </a>
+
+        <a href="#benefits">
+          <li className="links">Benefits</li>
+        </a>
+
         <li className="links">Impact</li>
       </ul>
 
