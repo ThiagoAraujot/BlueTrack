@@ -9,6 +9,7 @@ $primary-color: #2a1656;
 }
 
 .logo {
+  font-size: 1.7em;
   color: $primary-color;
 }
 
@@ -23,6 +24,7 @@ $primary-color: #2a1656;
   padding: 0 2em;
   cursor: pointer;
   color: $primary-color;
+  font-size: 1.1em;
 
   &:hover {
     font-weight: bold;

@@ -21,7 +21,7 @@
 .grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 260px);
+  grid-template-rows: repeat(2, 300px);
   gap: 20px;
   padding: 20px;
 }
@@ -30,12 +30,12 @@
   background: #F8F8F8;
   display: flex;
   flex-direction: column;
-  gap: .5em;
+  gap: .8em;
   align-items: start;
   justify-content: center;
   text-align: start;
   border-radius: 10px;
-  padding: 1.2em 1.5em;
+  padding: 1.5em;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 
   img {
@@ -47,12 +47,12 @@
 
   .title-benefit {
     color: #3d3269;
-    font-size: 1.1em;
+    font-size: 1.2em;
   }
 
   .text-benefit {
     color: #4E4E4E;
-    font-size: .9em;
+    font-size: 1em;
     word-spacing: 4px;
   }
 }
@@ -72,10 +72,10 @@
   }
 
   img {
-    width: 50%;
+    width: 36%;
     object-fit: cover;
 
-    @media (min-width: 1300px) {
+    @media (min-width: 1300px) and (max-width: 1600px) {
       width: 40%;
     }
   }
