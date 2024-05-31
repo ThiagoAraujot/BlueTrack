@@ -5,6 +5,27 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
+
+  p {
+    line-height: 18px;
+  }
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #231656;
+  border-radius: 10px;
+
+  &:hover {
+    background-color: #614fab;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
 }
 
 html {

@@ -35,7 +35,7 @@ const Features = () => {
         </div>
       </div>
 
-      <aside className="blur-left"></aside>
+      {/*<aside className="blur"></aside>*/}
     </>
   );
 };

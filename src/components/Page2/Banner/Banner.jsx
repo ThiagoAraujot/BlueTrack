@@ -6,7 +6,8 @@ const Banner = () => {
     <>
       <div className="container">
         <h2 className="title">
-          <span>Rastreando</span> a Confiança, <br /> Garantindo a <span>Sustentabilidade</span>
+          <span>Rastreando</span> a Confiança, <br /> Garantindo a{" "}
+          <span>Sustentabilidade</span>
         </h2>
         <p className="text">
           Uma solução sustentável utilizando a tecnologia Blockchain
@@ -19,7 +20,7 @@ const Banner = () => {
         <img className="phone-img" src={bannerImg} alt="" />
       </div>
 
-      <aside className="blur"></aside>
+      {/*<aside className="blur"></aside>*/}
     </>
   );
 };

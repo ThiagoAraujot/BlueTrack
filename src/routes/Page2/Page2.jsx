@@ -1,3 +1,4 @@
+import Analysis from "../../components/Page2/Analysis/Analysis";
 import Banner from "../../components/Page2/Banner/Banner";
 import Benefits from "../../components/Page2/Benefits/Benefits";
 import Features from "../../components/Page2/Features/Features";
@@ -11,6 +12,7 @@ const Page2 = () => {
       <Banner />
       <Features />
       <Benefits />
+      <Analysis />
     </>
   );
 };
