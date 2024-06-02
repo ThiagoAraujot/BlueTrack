@@ -1,6 +1,11 @@
-* {
-  margin: 340;
+$white-std: rgba(255, 255, 255, 0.85);
+
+body {
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: linear-gradient(#1773da, #0a387c);
+  background: linear-gradient(#1773da, #0a387c);
+  width: 100vw;
+  overflow-x: hidden;
+  color: $white-std;
 }

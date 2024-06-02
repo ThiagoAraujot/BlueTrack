@@ -4,7 +4,7 @@ import "./Card.scss";
 const Card = ({ number, title, text }) => {
   return (
     <>
-      <div className="container">
+      <div className="card-container">
         <h1 className="item-number">{number}</h1>
         <h2 className="title">{title}</h2>
         <p className="paragraph">{text}</p>
