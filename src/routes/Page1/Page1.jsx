@@ -1,11 +1,10 @@
-import Navbar from "../../components/page1/Navbar/Navbar";
-import Card from "../../components/page1/Card/Card";
-import Banner from "../../components/page1/Banner/Banner";
+import Navbar from "../../components/Page1/Navbar/Navbar";
+import Banner from "../../components/Page1/Banner/Banner";
 import "./Page1.scss";
 
 const Page1 = () => {
   return (
-    <>
+    <div className="body-page1">
       <Navbar />
       <Banner />
       {/* <Card
@@ -17,7 +16,7 @@ const Page1 = () => {
           "'lost years' because they drift far out to sea and aren't easy to track."
         }
       /> */}
-    </>
+    </div>
   );
 };
 
