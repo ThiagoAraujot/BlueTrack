@@ -1,0 +1,33 @@
+.info-container {
+    font-family: 'Inter';
+    text-align: left;
+    padding: 20px;
+    margin: 20px;
+    gap: 16px;
+    width: 650px;
+    height: 429px;
+    border-radius: 10px;
+    margin-left: auto;
+  }
+  .info-image {
+    max-width: 200px; // Ajuste conforme necessário
+    margin-right: 20px;
+    border-radius: 10px;
+  }
+  .info-container h1 {
+    font-size: 3em;
+    color: #3DA2FF; 
+  }
+  
+  .info-container h2 {
+    font-size: 2em;
+    color: #ffffff; 
+    margin-bottom: 10px;
+  }
+  
+  .info-container p {
+    font-size: 1.2em;
+    color: #ffffff; 
+    line-height: 1.6;
+  }
+  
