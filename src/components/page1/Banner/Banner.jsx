@@ -12,7 +12,7 @@ const Banner = () => {
           into three key stops—each one a crucial chapter in the sea
           turtle&apos;s journey.
         </p>
-        <button>Learn more</button>
+        <button className="Learnmore">Learn more</button>
       </div>
       <div className="pl-130">
         <img src="" alt="starfish image" />

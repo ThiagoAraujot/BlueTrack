@@ -34,3 +34,18 @@
         text-align: center;
     }
 }
+.Learnmore{
+    font-weight: bold;
+    background-color:#00FFB2 ;
+    gap: 10px;
+    width: 210px;
+    height: 64px;
+    border-radius: 53px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.Learnmore:hover{
+background-color:#13cc94 ;
+
+}
