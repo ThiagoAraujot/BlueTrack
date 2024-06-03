@@ -1,4 +1,14 @@
-.info-container {
+
+.info-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  margin-right: auto;
+}
+
+.info-container{
     font-family: 'Inter';
     text-align: left;
     padding: 20px;
@@ -10,9 +20,11 @@
     margin-left: auto;
   }
   .info-image {
-    max-width: 200px; // Ajuste conforme necessário
+    max-width: 200px; // 
     margin-right: 20px;
     border-radius: 10px;
+    padding: 10px;
+    margin-left: auto;
   }
   .info-container h1 {
     font-size: 3em;
