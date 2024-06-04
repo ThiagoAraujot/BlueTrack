@@ -3,25 +3,37 @@ import phone from "../../../assets/phone.png";
 
 const Analysis = () => {
   return (
-    <div className="container-analysis">
+    <div id="analysis" className="container-analysis">
       <div className="up-container">
         <div className="content-text">
           <h4>
-            Send and receive <br />
-            <span>payments</span> easily
+            Rastreabilidade
+            <br /> <span>Sustentável</span>
           </h4>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua.
+            Com <strong>BlueTrack</strong>, você pode{" "}
+            <strong>rastrear cada etapa</strong> do seu fruto do mar, desde a
+            captura até a mesa, com total transparência e segurança. Nossa
+            tecnologia blockchain garante produtos{" "}
+            <strong>autênticos e sustentáveis</strong>, eliminando a pesca
+            ilegal e promovendo um mercado responsável.
           </p>
 
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua.
+            Ao adotar BlueTrack, você
+            <strong>preserva a biodiversidade marinha</strong> e fortalece a
+            economia das comunidades pesqueiras. Identifique e elimine produtos
+            de <strong>pesca ilegal</strong>, assegurando que apenas peixes
+            capturados de forma sustentável cheguem ao consumidor final.
+          </p>
+
+          <p>
+            BlueTrack <strong>valoriza e recompensa</strong> pescadores e
+            empresas que adotam métodos sustentáveis. Nosso sistema facilita a
+            conformidade com
+            <strong>regulamentações ambientais</strong> e aumenta o valor
+            percebido dos produtos no mercado. Junte-se a nós e faça parte de
+            uma revolução sustentável na indústria pesqueira.
           </p>
         </div>
 
@@ -32,18 +44,18 @@ const Analysis = () => {
 
       <div className="down-container">
         <div className="analysis left">
-          <h5>12.000 +</h5>
-          <p>Downloaded</p>
+          <h5>500.000 +</h5>
+          <p>Frutos Rastreáveis</p>
         </div>
 
         <div className="analysis middle">
-          <h5>$10 M</h5>
-          <p>Transactions</p>
+          <h5>- 40%</h5>
+          <p>Pesca Ilegal</p>
         </div>
 
         <div className="analysis right">
-          <h5>1.000 +</h5>
-          <p>Feedback</p>
+          <h5>200 +</h5>
+          <p>Empresas Certificadas</p>
         </div>
       </div>
     </div>

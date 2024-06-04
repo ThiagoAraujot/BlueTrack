@@ -12,44 +12,47 @@ const Benefits = () => {
       <div className="grid-container">
         <div className="item card-1">
           <div className="content">
-            <h4 className="title-benefit">Safe & Security</h4>
+            <h4 className="title-benefit">
+              Acesso Fácil pelo Dispositivo Móvel
+            </h4>
             <p className="text-benefit">
-              Easily integrate with all your need favorite tools through and
-              APIsing including automaticEasily integrate with all your need favorite tools through 
+              Verifique a origem e a autenticidade do seu fruto do mar
+              diretamente pelo seu smartphone, a qualquer hora e em qualquer
+              lugar.
             </p>
           </div>
           <img src={benefitImg1} alt="" />
         </div>
         <div className="item card-2">
           <img src={benefitImg} alt="" />
-          <h4 className="title-benefit">Safe & Security</h4>
+          <h4 className="title-benefit">Transparência Total</h4>
           <p className="text-benefit">
-            Easily integrate with all your need favorite tools through and
-            APIsing including automatic
+            Com a tecnologia blockchain, cada etapa é rastreável, garantindo
+            produtos autênticos e de origem comprovada.
           </p>
         </div>
         <div className="item card-3">
           <img src={benefitImg} alt="" />
-          <h4 className="title-benefit">Safe & Security</h4>
+          <h4 className="title-benefit">Combate à Pesca Ilegal</h4>
           <p className="text-benefit">
-            Easily integrate with all your need favorite tools through and
-            APIsing including automatic
+            Elimine práticas ilegais, assegurando que apenas peixes capturados
+            de forma sustentável cheguem ao mercado.
           </p>
         </div>
         <div className="item card-4">
           <img src={benefitImg} alt="" />
-          <h4 className="title-benefit">Safe & Security</h4>
+          <h4 className="title-benefit">Valorização do Produto</h4>
           <p className="text-benefit">
-            Easily integrate with all your need favorite tools through and
-            APIsing including automatic
+            Produtos rastreáveis aumentam a confiança do consumidor, elevando o
+            valor percebido e a competitividade no mercado.
           </p>
         </div>
         <div className="item card-5">
           <img src={benefitImg} alt="" />
-          <h4 className="title-benefit">Safe & Security</h4>
+          <h4 className="title-benefit">Preservação Marinha</h4>
           <p className="text-benefit">
-            Easily integrate with all your need favorite tools through and
-            APIsing including automatic
+            Contribua diretamente para a preservação da biodiversidade marinha,
+            protegendo nossos oceanos para futuras gerações.
           </p>
         </div>
       </div>

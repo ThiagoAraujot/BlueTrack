@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Navbar.scss";
 
 const Navbar = () => {
@@ -6,19 +7,23 @@ const Navbar = () => {
       <h1 className="logo">BlueTrack</h1>
 
       <ul className="ul-links">
-        <li className="links">About Us</li>
+        <li className="links">Objetivos</li>
         <a href="#features">
-          <li className="links">Features</li>
+          <li className="links">Funcionalidades</li>
         </a>
 
         <a href="#benefits">
-          <li className="links">Benefits</li>
+          <li className="links">Benefícios</li>
         </a>
-
-        <li className="links">Impact</li>
+      
+        <a href="#analysis">
+          <li className="links">Impacto</li>
+        </a>
       </ul>
 
-      <button className="btn-go-back">Go back</button>
+      <Link to="/">
+        <button className="btn-go-back">Go back</button>
+      </Link>
     </nav>
   );
 };

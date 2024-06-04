@@ -14,7 +14,7 @@ const Banner = () => {
         </p>
 
         <a href="#features">
-          <button className="btn-banner">Get Started</button>
+          <button className="btn-banner">Saiba Mais</button>
         </a>
 
         <img className="phone-img" src={bannerImg} alt="" />

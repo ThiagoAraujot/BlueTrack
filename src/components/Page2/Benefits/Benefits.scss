@@ -24,13 +24,17 @@
   grid-template-rows: repeat(2, 300px);
   gap: 20px;
   padding: 20px;
+
+  @media (min-width: 1600px) {
+    grid-template-rows: repeat(2, 350px);
+  }
 }
 
 .item {
-  background: #F8F8F8;
+  background: #f8f8f8;
   display: flex;
   flex-direction: column;
-  gap: .8em;
+  gap: 0.8em;
   align-items: start;
   justify-content: center;
   text-align: start;
@@ -39,10 +43,9 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 
   img {
-    width: 100%;  
+    width: 100%;
     object-fit: cover;
     border-radius: 10px;
-
   }
 
   .title-benefit {
@@ -51,7 +54,7 @@
   }
 
   .text-benefit {
-    color: #4E4E4E;
+    color: #4e4e4e;
     font-size: 1em;
     word-spacing: 4px;
   }
@@ -68,7 +71,7 @@
   .content {
     display: flex;
     flex-direction: column;
-    gap: .5em;
+    gap: 0.5em;
   }
 
   img {
