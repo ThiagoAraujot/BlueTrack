@@ -1,6 +1,6 @@
-import Navbar from "../../components/Page1/Navbar/Navbar";
-import Banner from "../../components/Page1/Banner/Banner";
-import Info from "../../components/Page1/Info/Info";
+import Navbar from "../../components/Page1/Navbar/Navbar.jsx"
+import Banner from "../../components/Page1/Banner/Banner.jsx";
+import Info from "../../components/Page1/Info/Info.jsx";
 import "./Page1.scss";
 
 const Page1 = () => {

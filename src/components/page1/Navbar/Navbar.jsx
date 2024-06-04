@@ -1,5 +1,4 @@
 import "./Navbar.scss";
-import logotype from "../../../assets/logotype.png";
 import logoName from "../../../assets/BlueTrack-name.png";
 
 const Navbar = () => {
