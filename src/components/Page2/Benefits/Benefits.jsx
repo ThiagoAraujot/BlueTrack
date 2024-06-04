@@ -6,7 +6,7 @@ const Benefits = () => {
   return (
     <div id="benefits" className="container-benefits">
       <h3>
-        Why it is <br /> Worth Choosing <span>PrimePay</span>
+        BlueTrack <br /> <span>Tudo e um pouco mais!</span>
       </h3>
 
       <div className="grid-container">

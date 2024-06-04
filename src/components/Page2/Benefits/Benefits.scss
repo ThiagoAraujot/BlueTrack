@@ -83,3 +83,25 @@
     }
   }
 }
+
+@media (max-width: 767px) {
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+  }
+
+  .item {
+    padding: 1em;
+    gap: 1em;
+  }
+
+  .card-1 {
+    flex-direction: column;
+    gap: 1em;
+
+    img {
+      width: 100%;
+    }
+  }
+}

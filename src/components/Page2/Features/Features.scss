@@ -34,3 +34,26 @@
 .text-card {
   font-size: 1rem;
 }
+
+@media (max-width: 767px) {
+  .container-features {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5em;
+    width: 90%;
+    height: 110vh;
+  }
+
+  .features {
+    width: 80%;
+  }
+
+  .title-card {
+    padding: 1.2em 0 .8em 0;
+  }
+
+  .card-img {
+    width: 39%;
+  }
+}

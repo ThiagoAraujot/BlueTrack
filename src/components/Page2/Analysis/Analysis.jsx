@@ -21,7 +21,7 @@ const Analysis = () => {
 
           <p>
             Ao adotar BlueTrack, você
-            <strong>preserva a biodiversidade marinha</strong> e fortalece a
+            <strong> preserva a biodiversidade marinha</strong> e fortalece a
             economia das comunidades pesqueiras. Identifique e elimine produtos
             de <strong>pesca ilegal</strong>, assegurando que apenas peixes
             capturados de forma sustentável cheguem ao consumidor final.
@@ -31,7 +31,7 @@ const Analysis = () => {
             BlueTrack <strong>valoriza e recompensa</strong> pescadores e
             empresas que adotam métodos sustentáveis. Nosso sistema facilita a
             conformidade com
-            <strong>regulamentações ambientais</strong> e aumenta o valor
+            <strong> regulamentações ambientais</strong> e aumenta o valor
             percebido dos produtos no mercado. Junte-se a nós e faça parte de
             uma revolução sustentável na indústria pesqueira.
           </p>

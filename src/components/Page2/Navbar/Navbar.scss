@@ -49,3 +49,21 @@ $primary-color: #2a1656;
     font-weight: bold;
   }
 }
+
+@media (max-width: 767px) {
+  .navbar {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    padding: 2rem;
+  }
+
+  .ul-links, .btn-go-back {
+    display: none;
+  }
+
+  .logo {
+    font-size: 2em;
+  }
+}
