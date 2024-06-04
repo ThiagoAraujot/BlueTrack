@@ -1,13 +1,13 @@
-import Navbar from "../../components/Page1/Navbar/Navbar.jsx"
-import Banner from "../../components/Page1/Banner/Banner.jsx";
-import Info from "../../components/Page1/Info/Info.jsx";
+import Navbar1 from "../../components/Page1/Navbar/Navbar";
+import Banner1 from "../../components/Page1/Banner/Banner";
+import Info from "../../components/Page1/Info/Info";
 import "./Page1.scss";
 
 const Page1 = () => {
   return (
     <div className="body-page1">
-      <Navbar />
-      <Banner />
+      <Navbar1 />
+      <Banner1 />
       <Info />
       {/* <Card
         number={"01"}
