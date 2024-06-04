@@ -2,7 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import Page1 from "./routes/Page1/Page1.jsx";
 import Page2 from "./routes/Page2/Page2.jsx";
 
 const router = createBrowserRouter([
@@ -11,7 +10,7 @@ const router = createBrowserRouter([
     component: App,
 
     children: [
-      { path: "/", element: <Page1 /> },
+      { path: "/", element: <Page2 /> },
       { path: "/bluetrack", element: <Page2 /> },
     ],
   },
