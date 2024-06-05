@@ -7,12 +7,12 @@ const Banner = () => {
   return (
     <section id="banner">
       <div className="banner-txt">
-        <h2 className="banner-subtitle">Bem-vindo(a) ao nosso site!</h2>
+        <h2 className="banner-subtitle">Bem-vindo(a) à nossa solução!</h2>
         <h1 className="banner-title">BlueTrack</h1>
         <p className="banner-descricao">
-          Uma iniciativa voltada á proporcionar a melhor experiência para
-          crianças e adolescentes, transformando toda sua jornada hospitalar
-          divertida e intuitiva através de jogos!
+          Uma solução inovadora para transformar a indústria de frutos do mar,
+          proporcionando total transparência e sustentabilidade, garantindo que
+          cada etapa da cadeia de fornecimento seja segura, ética e confiável!
         </p>
         <Link to="/bluetrack">
           <button className="banner-button">Saiba Mais</button>

@@ -3,19 +3,19 @@ import Navbar from "../../components/Page1/Navbar/Navbar";
 import CardRight from "../../components/Page1/CardRight/CardRight";
 import CardLeft from "../../components/Page1/CardLeft/CardLeft";
 
-import check from "../../assets/check.svg";
+import lobster from "../../assets/lobster.webp";
 import "./Page1.scss";
 import data from "../../data.json";
 
 const Page1 = () => {
   const images = {
-    "1-girl.png": check,
-    "2-girl.png": check,
-    "enfermeira.png": check,
-    "enfermeira2.png": check,
-    "enfermeira3.png": check,
-    "enfermeira4.png": check,
-    "girl-jumping.png": check,
+    "1-girl.png": lobster,
+    "2-girl.png": lobster,
+    "enfermeira.png": lobster,
+    "enfermeira2.png": lobster,
+    "enfermeira3.png": lobster,
+    "enfermeira4.png": lobster,
+    "girl-jumping.png": lobster,
   };
 
   return (

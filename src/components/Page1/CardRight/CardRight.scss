@@ -4,6 +4,7 @@ section.container-right {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 2em;
   margin-bottom: 4em;
 }
 
@@ -63,12 +64,14 @@ div.public-txt {
   }
 
   .title-section {
+    width: 60%;
+    margin: 0 auto;
     font-size: 2rem;
   }
 
   .descricao {
     font-size: 1em;
-    width: 300px;
+    width: 80%;
     text-align: center;
     margin: 0 auto;
   }

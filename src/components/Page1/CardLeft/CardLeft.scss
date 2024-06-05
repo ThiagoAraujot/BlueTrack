@@ -3,6 +3,7 @@
   height: 110vh;
   display: flex;
   justify-content: center;
+  gap: 2em;
   align-items: center;
   background-color: rgba(255, 255, 255, 0.215);
   margin-bottom: 4em;
@@ -28,7 +29,25 @@ div.problema-img img {
   }
 }
 
-@media only screen and (max-width: 900px) {
+@media screen and (max-width: 900px) {
+
+  .number-section {
+    font-size: 5rem;
+  }
+  
+  .title-section {
+    font-size: 3rem;
+    width: 90%;
+  }
+
+  .descricao {
+    font-size: 1.4em;
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 767px) {
   .container-left,
   .container-right {
     flex-direction: column;
@@ -37,16 +56,18 @@ div.problema-img img {
   }
 
   .number-section {
-    font-size: 3rem;
+    font-size: 5rem;
   }
 
   .title-section {
+    width: 60%;
+    margin: 0 auto;
     font-size: 2rem;
   }
 
   .descricao {
     font-size: 1em;
-    width: 300px;
+    width: 55%;
     text-align: center;
     margin: 0 auto;
   }

@@ -11,18 +11,8 @@ const Navbar = () => {
       </div>
       <ul className="nav-list">
         <li>
-          <a className="nav-txt" href="#banner">
-            Home
-          </a>
-        </li>
-        <li>
-          <a className="nav-txt" href="#public">
-            Público
-          </a>
-        </li>
-        <li>
-          <a className="nav-txt" href="#problema">
-            Dores
+          <a className="nav-txt" href="#desafios">
+            Desafios
           </a>
         </li>
         <li>
@@ -31,23 +21,23 @@ const Navbar = () => {
           </a>
         </li>
         <li>
-          <a className="nav-txt" href="#gamification">
-            Projeto
+          <a className="nav-txt" href="#publico">
+            Público
           </a>
         </li>
         <li>
-          <a className="nav-txt" href="#objetivo">
-            Objetivo
+          <a className="nav-txt" href="#solução">
+            Solução
           </a>
         </li>
         <li>
-          <a className="nav-txt" href="#positivos">
+          <a className="nav-txt" href="#benefícios">
             Benefícios
           </a>
         </li>
         <li>
-          <a className="nav-txt" href="#form">
-            Entre em contato
+          <a className="nav-txt" href="#inovação">
+            Inovação
           </a>
         </li>
       </ul>

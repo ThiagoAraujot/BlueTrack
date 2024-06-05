@@ -9,4 +9,6 @@ $white-std: rgba(255, 255, 255, 0.85);
   overflow-x: hidden;
   color: $white-std;
   overflow-x: hidden;
+
+  scroll-behavior: smooth;
 }

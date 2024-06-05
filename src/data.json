@@ -1,50 +1,50 @@
 [
   {
-    "id": "public",
+    "id": "desafios",
     "img": "1-girl.png",
     "number": "01",
-    "title": "Sobre o público",
-    "first_text": "No HC Gaming transformamos a jornada hospitalar das crianças em uma emocionante aventura! Para nossos pequenos heróis, cada missão é uma conquista, e cada procedimento é uma oportunidade para aprender e se divertir.",
-    "second_text": "Pais e responsáveis, somos seus aliados na busca por uma experiência positiva e compreensível. Para a equipe médica, o HC Gaming é uma ferramenta para tornar o trabalho ainda mais extraordinário. Juntos, estamos transformando a jornada da saúde infantil em momentos mágicos e inesquecíveis."
-  },
-  {
-    "id": "problema",
-    "img": "2-girl.png",
-    "number": "02",
-    "title": "Problemática",
-    "first_text": "Na jornada hospitalar, cada detalhe conta. E sabemos que a falta de informações pode gerar mais do que dúvidas; pode criar ansiedades e tornar desafios ainda mais complexos. Mas e se pudéssemos transformar esses desafios em oportunidades para aventuras emocionantes?",
-    "second_text": "Pais e responsáveis, somos seus aliados na busca por uma experiência positiva e compreensível. Para a equipe médica, o HC Gaming é uma ferramenta para tornar o trabalho ainda mais extraordinário. Juntos, estamos transformando a jornada da saúde infantil em momentos mágicos e inesquecíveis."
+    "title": "Os Desafios da Indústria de Frutos do Mar",
+    "first_text": "A indústria de frutos do mar enfrenta desafios significativos que comprometem a sustentabilidade, a segurança alimentar e a confiança dos consumidores. A falta de transparência na cadeia de fornecimento dificulta o rastreamento da origem dos produtos, permitindo práticas ilegais e insustentáveis.",
+    "second_text": "Além disso, consumidores correm riscos ao consumir produtos de origem duvidosa, o que pode levar a sérias consequências para a saúde. A confiança dos consumidores está em declínio, com muitos se sentindo desinformados sobre a qualidade e a procedência dos frutos do mar que compram."
   },
   {
     "id": "impactos",
+    "img": "2-girl.png",
+    "number": "02",
+    "title": "Consequências da Falta de Transparência",
+    "first_text": "A ausência de um sistema eficiente de rastreabilidade tem impactos profundos. Práticas ilegais como a pesca predatória ameaçam ecossistemas marinhos e a biodiversidade. A falta de controle adequado pode resultar na entrada de produtos contaminados no mercado, colocando em risco a saúde pública.",
+    "second_text": "Além disso, a confiança abalada dos consumidores leva a uma menor demanda por frutos do mar, afetando negativamente toda a cadeia de fornecimento, desde pescadores até distribuidores."
+  },
+  {
+    "id": "publico",
     "img": "enfermeira3.png",
     "number": "03",
-    "title": "Impactos negativos",
-    "first_text": "A ansiedade associada aos exames pode ser avassaladora. O HC Gaming entra em cena para reduzir esse impacto negativo, transformando o desconhecido em desafios mais gerenciáveis.",
-    "second_text": "O medo e desconforto durante os exames resulta em menor colaboração. Nós procuramos encorajar uma participação mais ativa, criando um ambiente que motive as crianças a enfrentarem seus receios de maneira positiva."
+    "title": "Quem se Beneficia com BlueTrack?",
+    "first_text": "BlueTrack é uma solução desenhada para atender a todos os envolvidos na cadeia de fornecimento de frutos do mar. Pescadores e produtores ganham maior visibilidade e credibilidade ao adotar práticas sustentáveis.",
+    "second_text": "Distribuidores e varejistas beneficiam-se de uma cadeia de fornecimento mais eficiente e confiável. E, finalmente, os consumidores obtêm a transparência e segurança que desejam, podendo tomar decisões informadas e conscientes sobre os produtos que consomem."
   },
   {
-    "id": "gamification",
+    "id": "solução",
     "img": "girl-jumping.png",
     "number": "04",
-    "title": "Gamificação",
-    "first_text": "A gamificação é uma abordagem que incorpora elementos e mecânicas de jogos em contextos não relacionados a jogos, com o objetivo de tornar atividades mais envolventes e motivadoras.",
-    "second_text": "Com isso em mente, nossa proposta é um aplicativo mobile que abstrai toda etapa anterior ao procedimento de forma lúdica e divertida para os nossos pequenos heróis."
+    "title": "BlueTrack: Transparência e Sustentabilidade",
+    "first_text": "BlueTrack é uma plataforma de rastreabilidade de frutos do mar baseada em blockchain, projetada para resolver os problemas críticos da indústria. Utilizando blockchain, garantimos que todas as transações sejam registradas de forma imutável e transparente. ",
+    "second_text": "Sensores IoT monitoram continuamente as condições dos frutos do mar durante toda a cadeia de fornecimento, assegurando que os produtos cheguem frescos e seguros aos consumidores. Além disso, nossa interface amigável facilita o acesso às informações para todos os envolvidos."
   },
   {
-    "id": "objetivo",
+    "id": "benefícios",
     "img": "enfermeira.png",
     "number": "05",
-    "title": "Objetivo",
-    "first_text": "Transformar procedimentos médicos em emocionantes desafios, tornando cada momento no hospital uma aventura inesquecível para nossos pequenos heróis. Acreditamos que a jornada hospitalar das crianças pode ser mais do que apenas procedimentos médicos; pode ser uma emocionante aventura cheia de sorrisos, conquistas e heróis mirins!",
-    "second_text": ""
+    "title": "Vantagens de Usar BlueTrack",
+    "first_text": "BlueTrack oferece inúmeros benefícios para toda a cadeia de fornecimento. Para os produtores, garante maior visibilidade e incentivo para práticas sustentáveis. Distribuidores e varejistas ganham eficiência operacional e uma cadeia de fornecimento mais segura.",
+    "second_text": "Para os consumidores, proporciona confiança e transparência total sobre a origem e qualidade dos produtos. Além disso, a utilização de certificados digitais reforça o compromisso com práticas éticas e sustentáveis, beneficiando o meio ambiente e a sociedade como um todo."
   },
   {
-    "id": "positivos",
+    "id": "inovação",
     "img": "enfermeira2.png",
     "number": "06",
-    "title": "Impactos positivos",
-    "first_text": "Adesão ao Tratamento Aumentada: HC Gaming impacta diretamente a adesão ao tratamento, promovendo resultados mais eficazes e positivos, ao tornar os exames mais agradáveis.",
-    "second_text": "Ansiedade Transformada em Desafios: Mudamos a narrativa da ansiedade para desafios emocionantes. Cada exame é agora uma jornada, reduzindo a tensão e criando um ambiente mais acolhedor para as crianças."
+    "title": "O Que Torna BlueTrack Único?",
+    "first_text": "A inovação da BlueTrack reside na combinação única de blockchain e IoT, proporcionando uma rastreabilidade completa e segura. Diferente das soluções existentes que apenas focam na rastreabilidade básica, BlueTrack promove a sustentabilidade e conformidade com padrões ambientais rigorosos.",
+    "second_text": "Nosso foco direto na sustentabilidade e no engajamento do consumidor aumenta significativamente a confiança e a satisfação, transformando a maneira como a indústria de frutos do mar opera e trazendo benefícios tangíveis para todos os envolvidos na cadeia de fornecimento."
   }
 ]
