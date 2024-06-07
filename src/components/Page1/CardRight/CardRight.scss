@@ -71,7 +71,33 @@ div.public-txt {
 
   .descricao {
     font-size: 1em;
-    width: 80%;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .container-left,
+  .container-right {
+    flex-direction: column;
+    padding: 2em;
+    text-align: center;
+  }
+
+  .number-section {
+    font-size: 5rem;
+  }
+
+  .title-section {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 2rem;
+  }
+
+  .descricao {
+    font-size: 1em;
+    width: 50%;
     text-align: center;
     margin: 0 auto;
   }

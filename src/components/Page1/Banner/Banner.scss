@@ -94,6 +94,10 @@
   scale: 0.95;
 }
 
+.icon {
+  color: #fff;
+}
+
 .home-scroll {
   text-decoration: none;
   color: #1b65a6;
@@ -134,5 +138,16 @@
   #banner h1,
   .banner-title {
     font-size: 4.5em;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+
+  #banner {
+    margin-top: 0;
+  }
+
+  .banner-descricao {
+    width: 80%;
   }
 }

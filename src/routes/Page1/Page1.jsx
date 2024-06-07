@@ -2,20 +2,24 @@ import Banner from "../../components/Page1/Banner/Banner";
 import Navbar from "../../components/Page1/Navbar/Navbar";
 import CardRight from "../../components/Page1/CardRight/CardRight";
 import CardLeft from "../../components/Page1/CardLeft/CardLeft";
-
 import lobster from "../../assets/lobster.webp";
+import negative from "../../assets/negative.png";
+import positive from "../../assets/positive.png";
+import blockchain from "../../assets/blockchain.webp";
+import medal from "../../assets/medal.webp";
+import world from "../../assets/world.png";
 import "./Page1.scss";
 import data from "../../data.json";
+import { Link } from "react-router-dom";
 
 const Page1 = () => {
   const images = {
     "1-girl.png": lobster,
-    "2-girl.png": lobster,
-    "enfermeira.png": lobster,
-    "enfermeira2.png": lobster,
-    "enfermeira3.png": lobster,
-    "enfermeira4.png": lobster,
-    "girl-jumping.png": lobster,
+    "2-girl.png": negative,
+    "enfermeira.png": medal,
+    "enfermeira2.png": world,
+    "enfermeira3.png": positive,
+    "girl-jumping.png": blockchain,
   };
 
   return (
@@ -50,6 +54,21 @@ const Page1 = () => {
           );
         }
       })}
+
+      <section className="final-section">
+        <div className="final-section__container">
+          <h2 className="banner-title">Explore Mais Sobre a BlueTrack</h2>
+          <p className="final-text">
+            Descubra como a BlueTrack está transformando a indústria de frutos
+            do mar com tecnologia de ponta e práticas sustentáveis. Clique no
+            botão abaixo e conheça mais detalhes sobre a nossa solução, veja
+            protótipos e entenda como podemos juntos fazer a diferença!
+          </p>
+          <Link to="/bluetrack">
+            <button className="button-page2">Get started</button>
+          </Link>
+        </div>
+      </section>
     </body>
   );
 };

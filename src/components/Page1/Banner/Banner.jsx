@@ -1,7 +1,6 @@
 import "./Banner.scss";
 import starfish from "../../../assets/Starfish.svg";
 import "bootstrap-icons/font/bootstrap-icons.css";
-import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (
@@ -14,12 +13,12 @@ const Banner = () => {
           proporcionando total transparência e sustentabilidade, garantindo que
           cada etapa da cadeia de fornecimento seja segura, ética e confiável!
         </p>
-        <Link to="/bluetrack">
+        <a href="#desafios">
           <button className="banner-button">Saiba Mais</button>
-        </Link>
+        </a>
         <div className="home-scroll">
           <span className="home-scroll-name">Scroll down</span>
-          <i className="bi bi-chevron-double-down"></i>
+          <i className="bi bi-chevron-double-down  icon"></i>
         </div>
       </div>
 
