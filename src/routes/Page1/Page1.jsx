@@ -65,7 +65,7 @@ const Page1 = () => {
             protótipos e entenda como podemos juntos fazer a diferença!
           </p>
           <Link to="/bluetrack">
-            <button className="button-page2">Get started</button>
+            <button className="button-page2">Saiba Mais!</button>
           </Link>
         </div>
       </section>

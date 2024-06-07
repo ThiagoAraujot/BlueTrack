@@ -22,7 +22,7 @@ const Navbar = () => {
       </ul>
 
       <Link to="/">
-        <button className="btn-go-back">Go back</button>
+        <button className="btn-go-back">Voltar</button>
       </Link>
     </nav>
   );
