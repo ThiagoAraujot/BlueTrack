@@ -7,7 +7,7 @@ const Prototype = () => {
   return (
     <div className="container-prototype">
       <h4 className="title-prototype">
-        Acesso Fácil pelo <span>Dispositivo Móvel!</span>
+        Acesso Fácil pelo <strong className="important">Dispositivo Móvel!</strong>
       </h4>
 
       <div className="prototypes">
