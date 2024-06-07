@@ -77,6 +77,21 @@ span {
   
 }
 
+@media (max-width: 1024px) {
+  .container {
+    height: 75vh;
+  }
+
+  .title {
+    font-size: 2.8rem;
+  }
+
+  .phone-img {
+    margin-top: 2em;
+    width: 85%;
+  }
+}
+
 @media (max-width: 767px) {
   .container {
     height: 80vh;

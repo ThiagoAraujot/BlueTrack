@@ -125,6 +125,44 @@
   }
 }
 
+@media (max-width: 1024px) {
+  .up-container {
+    .img-content {
+      height: 55vh;
+    }
+    img {
+      width: 200%;
+      top: -11em;
+      right: 0;
+      left: -9em;
+    }
+  }
+
+  .down-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    text-align: center;
+    .analysis {
+      padding: 1em;
+    }
+
+    .left {
+      padding-left: 0;
+    }
+
+    h5 {
+      font-size: 2.5em;
+      padding-bottom: 0.3em;
+    }
+
+    p {
+      font-size: 1.5em;
+    }
+  }
+}
+
 @media (max-width: 767px) {
   .up-container {
     flex-direction: column;

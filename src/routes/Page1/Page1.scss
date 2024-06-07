@@ -69,6 +69,14 @@ $white-std: rgba(255, 255, 255, 0.85);
   }
 }
 
+@media (max-width: 1200px) {
+  .final-section__container {
+    .banner-title {
+      font-size: 5rem;
+    }
+  }
+}
+
 @media (max-width: 768px) {
   .final-section__container {
     .banner-title {
