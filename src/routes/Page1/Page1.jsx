@@ -14,12 +14,12 @@ import { Link } from "react-router-dom";
 
 const Page1 = () => {
   const images = {
-    "1-girl.png": lobster,
-    "2-girl.png": negative,
-    "enfermeira.png": medal,
-    "enfermeira2.png": world,
-    "enfermeira3.png": positive,
-    "girl-jumping.png": blockchain,
+    "lobster": lobster,
+    "negative": negative,
+    "medal": medal,
+    "world": world,
+    "positive": positive,
+    "blockchain": blockchain,
   };
 
   return (

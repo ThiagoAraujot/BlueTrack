@@ -1,7 +1,7 @@
 [
   {
     "id": "desafios",
-    "img": "1-girl.png",
+    "img": "lobster",
     "number": "01",
     "title": "Os Desafios da Indústria de Frutos do Mar",
     "first_text": "A indústria de frutos do mar enfrenta desafios significativos que comprometem a sustentabilidade, a segurança alimentar e a confiança dos consumidores. A falta de transparência na cadeia de fornecimento dificulta o rastreamento da origem dos produtos, permitindo práticas ilegais e insustentáveis.",
@@ -9,7 +9,7 @@
   },
   {
     "id": "impactos",
-    "img": "2-girl.png",
+    "img": "negative",
     "number": "02",
     "title": "Consequências da Falta de Transparência",
     "first_text": "A ausência de um sistema eficiente de rastreabilidade tem impactos profundos. Práticas ilegais como a pesca predatória ameaçam ecossistemas marinhos e a biodiversidade. A falta de controle adequado pode resultar na entrada de produtos contaminados no mercado, colocando em risco a saúde pública.",
@@ -17,7 +17,7 @@
   },
   {
     "id": "publico",
-    "img": "enfermeira3.png",
+    "img": "positive",
     "number": "03",
     "title": "Quem se Beneficia com BlueTrack?",
     "first_text": "BlueTrack é uma solução desenhada para atender a todos os envolvidos na cadeia de fornecimento de frutos do mar. Pescadores e produtores ganham maior visibilidade e credibilidade ao adotar práticas sustentáveis.",
@@ -25,7 +25,7 @@
   },
   {
     "id": "solução",
-    "img": "girl-jumping.png",
+    "img": "blockchain",
     "number": "04",
     "title": "BlueTrack: Transparência e Sustentabilidade",
     "first_text": "BlueTrack é uma plataforma de rastreabilidade de frutos do mar baseada em blockchain, projetada para resolver os problemas críticos da indústria. Utilizando blockchain, garantimos que todas as transações sejam registradas de forma imutável e transparente. ",
@@ -33,7 +33,7 @@
   },
   {
     "id": "benefícios",
-    "img": "enfermeira.png",
+    "img": "medal",
     "number": "05",
     "title": "Vantagens de Usar BlueTrack",
     "first_text": "BlueTrack oferece inúmeros benefícios para toda a cadeia de fornecimento. Para os produtores, garante maior visibilidade e incentivo para práticas sustentáveis. Distribuidores e varejistas ganham eficiência operacional e uma cadeia de fornecimento mais segura.",
@@ -41,7 +41,7 @@
   },
   {
     "id": "inovação",
-    "img": "enfermeira2.png",
+    "img": "world",
     "number": "06",
     "title": "O Que Torna BlueTrack Único?",
     "first_text": "A inovação da BlueTrack reside na combinação única de blockchain e IoT, proporcionando uma rastreabilidade completa e segura. Diferente das soluções existentes que apenas focam na rastreabilidade básica, BlueTrack promove a sustentabilidade e conformidade com padrões ambientais rigorosos.",
