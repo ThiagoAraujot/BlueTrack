@@ -1,5 +1,17 @@
 $primary-color: #2a1656;
 
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
 .container {
   width: 80%;
   height: 80vh;
@@ -58,12 +70,11 @@ span {
 .phone-img {
   width: 50%;
   position: relative;
+  top: -10px;
   cursor: pointer;
   transition: all 0.5s ease-in-out;
-
-  &:hover {
-    transform: scale(1.08);
-  }
+  animation: float 3s ease-in-out infinite;
+  
 }
 
 @media (max-width: 767px) {
@@ -80,8 +91,8 @@ span {
 
   .phone-img {
     position: absolute;
-    top: 450px;
-    width: 100%;
+    top: 500px;
+    width: 105%;
 
     &:hover {
       transform: scale(1);

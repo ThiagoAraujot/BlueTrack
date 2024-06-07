@@ -1,5 +1,5 @@
 import "./Analysis.scss";
-import phone from "../../../assets/phone.png";
+import partners from "../../../assets/partners.png";
 
 const Analysis = () => {
   return (
@@ -38,7 +38,7 @@ const Analysis = () => {
         </div>
 
         <div className="img-content">
-          <img src={phone} alt="" />
+          <img src={partners} alt="" />
         </div>
       </div>
 

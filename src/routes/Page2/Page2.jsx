@@ -3,6 +3,7 @@ import Banner from "../../components/Page2/Banner/Banner";
 import Benefits from "../../components/Page2/Benefits/Benefits";
 import Features from "../../components/Page2/Features/Features";
 import Navbar from "../../components/Page2/Navbar/Navbar";
+import Prototype from "../../components/Page2/Prototype/Prototype";
 import "./Page2.scss";
 
 const Page2 = () => {
@@ -13,6 +14,7 @@ const Page2 = () => {
       <Features />
       <Benefits />
       <Analysis />
+      <Prototype />
     </>
   );
 };

@@ -1,5 +1,5 @@
 import "./Banner.scss";
-import bannerImg from "../../../assets/Image.png";
+import homescreen from "../../../assets/home.svg";
 
 const Banner = () => {
   return (
@@ -17,7 +17,7 @@ const Banner = () => {
           <button className="btn-banner">Saiba Mais</button>
         </a>
 
-        <img className="phone-img" src={bannerImg} alt="" />
+        <img className="phone-img" src={homescreen} alt="" />
       </div>
 
       {/*<aside className="blur"></aside>*/}
